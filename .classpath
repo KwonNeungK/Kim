@@ -4,5 +4,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="lib" path="D:/7월_자바개발취업반_김/0_StudentManager4조.jar_170724/StudentManager4조.jar"/>
 	<classpathentry kind="lib" path="C:/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar"/>
+	<classpathentry kind="lib" path="D:/7월_자바웹개발취업반/workspace/Server"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
