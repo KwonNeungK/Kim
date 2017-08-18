@@ -18,6 +18,7 @@ import javax.swing.JTable;
 import javax.swing.JTextArea;
 import javax.swing.JTextField;
 import javax.swing.RowSorter;
+import javax.swing.UIManager;
 import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
@@ -63,10 +64,10 @@ public class Calculation extends JFrame{
 	public void compInit() {
 		this.setLayout(null);
 
-		String header[]= {"음식","가격", "수량", "총가격"};
+		String header[]= {"음식","가격", "수량", "총가격"}; // column 생성
 
 		ArrayList<Order> result = manager.getAllData();
-		Object[][] contents=new Object[result.size()][4];
+		Object[][] contents=new Object[result.size()][4]; // row 생성 및 row 사이즈 설정.
 
 		for(int i=0;i<result.size();i++) {
 			o=result.get(i);
@@ -75,24 +76,10 @@ public class Calculation extends JFrame{
 			contents[i][2]=o.getQuantity();
 			contents[i][3]=o.getPrice() * o.getQuantity();
 		}
+		//Object형 row인 contents에 i마다 무엇을 줄지 정하는 것.
 
-		TableModel model = new DefaultTableModel(contents, header) {
-			public Class getColumnClass(int header) {
-				Class returnValue;
-				if ((header >= 0) && (header < getColumnCount())) {
-					returnValue = getValueAt(0, header).getClass();
-				} else {
-					returnValue = Object.class;
-				}
-				return returnValue;
-			}
-		};
-
-
+		TableModel model = new DefaultTableModel(contents, header); // defaultTableModel에 담을것들
 		JTable table=new JTable(model);
-		RowSorter<TableModel> sorter = new TableRowSorter<TableModel>(model);
-		table.setRowSorter(sorter);
-
 		JScrollPane jScroll=new JScrollPane(table);
 		jScroll.setBounds(15, 10, 450, 450);
 		this.add(jScroll);
@@ -131,7 +118,6 @@ public class Calculation extends JFrame{
 
 	public void eventInit(){
 
-		//		price = o.getTotalPrice();
 
 		for(i=0; i<nums.length; i++){
 			nums[i].addActionListener(new ActionListener(){
@@ -157,7 +143,6 @@ public class Calculation extends JFrame{
 				Calculation.result = Calculation.priceNum-Calculation.cashNum;
 				bill.setText(String.valueOf(result));
 				
-				
 			}
 		});	
 		
@@ -176,7 +161,18 @@ public class Calculation extends JFrame{
 	}
 
 	public static void main(String[] args) {
-		new Calculation();
+		 try {
+	            // select Look and Feel
+	            UIManager.setLookAndFeel("com.jtattoo.plaf.mcwin.McWinLookAndFeel");
+	            // start application
+	            new Calculation();
+	        }
+	        catch (Exception ex) {
+	            ex.printStackTrace();
+	        }
+		
+		
+		
 	}
 
 

@@ -5,5 +5,27 @@
 	<classpathentry kind="lib" path="D:/7월_자바개발취업반_김/0_StudentManager4조.jar_170724/StudentManager4조.jar"/>
 	<classpathentry kind="lib" path="C:/oraclexe/app/oracle/product/11.2.0/server/jdbc/lib/ojdbc6.jar"/>
 	<classpathentry kind="lib" path="D:/7월_자바웹개발취업반/workspace/Server"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/Digital Clock v1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/quaqua-9.1.nested.zip"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/JTattoo-1.6.11 (1).jar"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/jfreechart-1.0.19-demo.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/jfreechart-1.0.19/lib/hamcrest-core-1.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/jfreechart-1.0.19/lib/jcommon-1.0.23.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/jfreechart-1.0.19/lib/jfreechart-1.0.19.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/jfreechart-1.0.19/lib/jfreechart-1.0.19-experimental.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/jfreechart-1.0.19/lib/jfreechart-1.0.19-swt.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/jfreechart-1.0.19/lib/jfreesvg-2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/jfreechart-1.0.19/lib/junit-4.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/jfreechart-1.0.19/lib/orsoncharts-1.4-eval-nofx.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/jfreechart-1.0.19/lib/orsonpdf-1.6-eval.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/jfreechart-1.0.19/lib/servlet.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/jfreechart-1.0.19/lib/swtgraphics2d.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/jCharts-0.7.5/jCharts-0.7.5/jCharts-0.7.5.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/jCharts-0.7.5/jCharts-0.7.5/lib/batik-awt-util.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/jCharts-0.7.5/jCharts-0.7.5/lib/batik-dom.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/jCharts-0.7.5/jCharts-0.7.5/lib/batik-svggen.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/jCharts-0.7.5/jCharts-0.7.5/lib/batik-util.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/jCharts-0.7.5/jCharts-0.7.5/lib/batik-xml.jar"/>
+	<classpathentry kind="lib" path="C:/Users/ITBANK403-02/Downloads/jCharts-0.7.5/jCharts-0.7.5/lib/servlet.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
